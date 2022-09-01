@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod g+x,u+x,o+x *
+chmod 222 $(find /path/to/base/dir -type d)
