@@ -1,0 +1,33 @@
+Demonstrating the Journey of Typing "https://www.google.com" in Your Browser
+
+Introduction:
+Have you ever wondered what happens behind the scenes when you type "https://www.google.com" in your browser and press Enter? The process may seem instantaneous, but there are several intricate steps taking place to ensure that you reach the desired webpage. In this blog post, we will unravel the journey of a simple browser request and explore the key components involved in delivering the Google search page to your screen.
+
+DNS Request:
+The first step is the Domain Name System (DNS) request. Your browser needs to translate the human-readable URL, "www.google.com," into an IP address that computers understand. It sends a DNS request to a DNS server, which retrieves the corresponding IP address for "www.google.com".
+
+TCP/IP:
+Once the IP address is obtained, your browser establishes a Transmission Control Protocol/Internet Protocol (TCP/IP) connection with the server hosting Google's website. TCP ensures reliable data transmission by breaking the information into packets and reassembling them on the receiving end, while IP handles routing and addressing.
+
+Firewall:
+At this stage, the request encounters a firewall, a security measure designed to protect against unauthorized access. The firewall analyzes the incoming request to ensure it meets the predefined security policies. Assuming the request passes the firewall's scrutiny, it proceeds to the next step.
+
+HTTPS/SSL:
+To secure the communication between your browser and the server, Google employs Hypertext Transfer Protocol Secure (HTTPS) with Secure Sockets Layer (SSL) encryption. This encryption ensures that sensitive data transmitted, such as search queries or personal information, remains confidential and protected from eavesdropping or tampering.
+
+Load-Balancer:
+Google's infrastructure utilizes load-balancers to distribute incoming requests across multiple servers. Load-balancers help optimize performance and prevent overload on any single server. They route your request to an available web server that can handle the incoming traffic.
+
+Web Server:
+Once the request reaches the web server, it processes the request and retrieves the necessary files to construct the Google search page. The web server dynamically generates the HTML, CSS, JavaScript, and other resources required to render the webpage.
+
+Application Server:
+In some cases, an application server may come into play if the requested webpage requires additional processing or interacts with databases or other external systems. The application server handles the logic and generates the dynamic content, which is then passed back to the web server.
+
+Database:
+If the requested webpage relies on data stored in a database, the application server retrieves the required information from the database server. This could include search results, personalized recommendations, or any other data needed to complete the webpage's content.
+
+Conclusion:
+The journey from typing "https://www.google.com" to seeing the Google search page involves a complex series of steps. From DNS requests, TCP/IP connections, and firewalls to HTTPS/SSL encryption, load-balancers, web servers, application servers, and databases, numerous components work together seamlessly to deliver the desired web content. Understanding this process sheds light on the intricate infrastructure and technologies that power our everyday browsing experiences.
+
+Next time you search on Google, take a moment to appreciate the behind-the-scenes journey that brings the search results to your screen. The interconnectedness and efficiency of these components are a testament to the remarkable technological advancements that have revolutionized our access to information on the web
